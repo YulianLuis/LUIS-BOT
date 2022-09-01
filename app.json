@@ -1,0 +1,18 @@
+{
+  "name": "The-YULIAN-MD-V2",
+  "description": "Subscribete a The-LoliBot-MD",
+  "repository": "https://github.com/YulianLuis/LUIS-BOT.git",
+  "logo": "https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/Menu2.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+  }    
+ ]
+}
